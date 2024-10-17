@@ -1,0 +1,166 @@
+* {
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav {
+  background: rgb(233, 236, 243);
+  height: 130px;
+  text-transform: uppercase;
+  color: darkslategray;
+  font-family: "Times New Roman", Times, serif;
+}
+.nav ul {
+  list-style: none;
+  margin-left: 250px;
+  padding-bottom: 3px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  /* position: relative; */
+  /* position:fixed; */
+}
+.nav a {
+  color: rgb(108, 114, 131);
+  text-decoration: none;
+}
+
+.nav li {
+  display: inline;
+  padding-left: 48px;
+}
+.nav a:hover {
+  color: rgb(176, 131, 19);
+}
+.a focus {
+  background: rgb(214, 48, 48);
+}
+h2 {
+  color: rgb(21, 21, 170);
+  padding-bottom: 22px;
+  padding-left: 2px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 3px;
+  text-align: left;
+}
+.contact {
+  position: relative;
+  min-height: 100vh;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url(cont.jpg);
+  background-size: cover;
+  font-size: 130%;
+}
+.content {
+  max-width: 800px;
+  text-align: center;
+}
+h1 {
+  font-size: 50px;
+  font-weight: 500;
+  color: #ff0000;
+
+  padding-top: 20px;
+  margin: 10px;
+}
+p {
+  font-weight: 300;
+  color: rgb(68, 9, 30);
+}
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.contectinfo {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.box {
+  position: relative;
+  padding: 20px 0;
+}
+h2 {
+  font-weight: 500;
+  color: darkblue;
+  font-size: 30px;
+  padding-bottom: 10px;
+  margin: 5px;
+}
+h3 {
+  font-weight: 500;
+  color: darkblue;
+  font-size: 25px;
+  padding-bottom: 10px;
+  margin: 5px;
+}
+h4 {
+  font-weight: 500;
+  color: darkblue;
+  font-size: 25px;
+  padding-bottom: 10px;
+  margin: 5px;
+}
+h5 {
+  font-weight: 500;
+  color: gold;
+  font-size: 30px;
+  padding-bottom: 5px;
+  margin: 5px;
+}
+
+.contactform {
+  width: 30%;
+
+  padding: 40px;
+  background: #fff;
+}
+.contactform h5 {
+  font-size: 30px;
+  color: #333;
+  font-weight: 5000;
+}
+.contactform .inputBox {
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+}
+.contactform .inputBox input {
+  width: 90%;
+  padding: 5px 0;
+  font-size: 17px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid #333;
+  outline: none;
+  resize: none;
+}
+
+.inputBox {
+  width: 40%;
+
+  padding: 10px;
+  background: #fff;
+  font-weight: 500;
+  color: gold;
+  font-size: 80px;
+  margin: 20px;
+  align-items: center;
+}
+.icon img {
+  max-width: 30%;
+
+  /* padding-right:40vh;
+     */
+}
+.footer {
+  color: gold;
+  background-color: grey;
+}

@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+.nav {
+  background: rgb(233, 236, 243);
+  height: 100px;
+  text-transform: uppercase;
+  color: darkslategray;
+  font-family: "Times New Roman", Times, serif;
+}
+.nav ul {
+  list-style: none;
+  margin-left: 250px;
+  padding-bottom: 3px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  /* position: relative; */
+  /* position:fixed; */
+}
+.nav a {
+  color: rgb(108, 114, 131);
+  text-decoration: none;
+}
+
+.nav li {
+  display: inline;
+  padding-left: 48px;
+}
+.nav a:hover {
+  color: rgb(176, 131, 19);
+}
+.a focus {
+  background: rgb(214, 48, 48);
+}
+h2 {
+  color: rgb(21, 21, 170);
+  padding-bottom: 22px;
+  padding-left: 2px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 3px;
+  text-align: left;
+}
+.footer {
+  width: 100%;
+  height: 300px;
+  color: rgb(14, 7, 28);
+  background: rgb(150, 128, 184);
+}
+.cont {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  color: white;
+  background: rgba(33, 160, 160, 0.415);
+}
+body {
+  color: rgb(0, 0, 143);
+}
+.container {
+  max-width: 1170px;
+  /* background-color: red; */
+  margin: auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+ul {
+  list-style: none;
+}
+.footer {
+  background-color: #24262b;
+  padding: 70px 0;
+}
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+}
+.footer-col h4 {
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col h4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+  font-size: 19px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 30px;
+  color: #bbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover {
+  color: #ffffff;
+  padding-left: 10px;
+}
+.social-links a {
+  display: inline-block;
+  font-size: 20px;
+  height: 40px;
+  width: 40px;
+  background-color: rgb(42, 41, 43);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40%;
+  border-radius: 50%;
+  color: #fcfcfc;
+  transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+  color: #24262b;
+  background-color: #ffffff;
+}

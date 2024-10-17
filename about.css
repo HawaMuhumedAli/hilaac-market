@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  transition: 0.2s linear;
+}
+.nav {
+  background: rgb(233, 236, 243);
+  height: 100px;
+  text-transform: uppercase;
+  color: darkslategray;
+  font-family: "Times New Roman", Times, serif;
+}
+.nav ul {
+  list-style: none;
+  margin-left: 250px;
+  padding-bottom: 3px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  /* position: relative; */
+  /* position:fixed; */
+}
+.nav a {
+  color: rgb(108, 114, 131);
+  text-decoration: none;
+}
+
+.nav li {
+  display: inline;
+  padding-left: 48px;
+}
+.nav a:hover {
+  color: rgb(176, 131, 19);
+}
+.a focus {
+  background: rgb(214, 48, 48);
+}
+h2 {
+  color: rgb(21, 21, 170);
+  padding-bottom: 22px;
+  padding-left: 2px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 3px;
+  text-align: left;
+}
+html {
+  font-size: 70.5%;
+}
+
+section {
+  padding: 5rem 9%;
+  background-color: #eee;
+}
+
+.team .box-container .sun img {
+  width: 16rem;
+  height: 16rem;
+}
+
+.team .box-container .sun img {
+  width: 16rem;
+  height: 16rem;
+  object-fit: cover;
+  border-radius: 45%;
+}
+
+.heading {
+  font-size: 3.5rem;
+  margin-bottom: 3.5rem;
+  text-align: center;
+}
+
+.team .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(21rem, 1fr));
+  gap: 4rem;
+}
+
+.team .box-container .sun {
+  background-color: #fff;
+  text-align: center;
+  border-radius: 0.5rem;
+  padding: 2.5rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.team .box-container .sun .info h3 {
+  font-size: 1.7rem;
+}
+
+.team .box-container .sun .info {
+  margin: 1rem 0;
+}
+
+.team .box-container .sun .info p {
+  font-size: 1.2rem;
+  color: #235789;
+  margin-top: 0.5rem;
+}
+
+.team .box-container .sun:hover {
+  box-shadow: rgb(27, 31, 35, 0.04) 0px 1px 0px,
+    rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+}
+
+.team .box-container .sun .socails a {
+  margin-right: 0.3rem;
+}
+
+.team .box-container .sun .socails a i {
+  width: 3rem;
+  height: 3rem;
+  font-size: 1.7rem;
+  background-color: #eee;
+  line-height: 1.8;
+  color: #477890;
+  border-radius: 50%;
+}
+
+.team .box-container .sun .socails a i:hover {
+  background-color: #477890;
+  color: #fff;
+}
+
+.nun p {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+}

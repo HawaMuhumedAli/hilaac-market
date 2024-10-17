@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(160, 152, 152);
+  background-image: url(ss.jpg);
+  background-position: center;
+  background-size: cover;
+  font-family: sans-serif;
+  margin-top: 0px;
+}
+.nav {
+  background: rgb(233, 236, 243);
+  height: 100px;
+  text-transform: uppercase;
+  color: darkslategray;
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+.nav ul {
+  list-style: none;
+  margin-left: 250px;
+  padding-bottom: 0px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  /* position: relative; */
+  /* position:fixed; */
+}
+.nav a {
+  color: rgb(108, 114, 131);
+  text-decoration: none;
+}
+
+.nav li {
+  display: inline;
+  padding-left: 48px;
+}
+.nav a:hover {
+  color: rgb(176, 131, 19);
+}
+.a focus {
+  background: rgb(214, 48, 48);
+}
+h2 {
+  color: rgb(21, 21, 170);
+  padding-bottom: 22px;
+  padding-left: 2px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 3px;
+  text-align: left;
+}
+.book {
+  width: 800px;
+  background-color: rgb(0, 0, 0, 6);
+  margin: auto;
+  color: #fff;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+  border-radius: 15px 15px 0px 0px;
+}
+.main {
+  background-color: rgba(61, 60, 60, 0.5);
+  width: 80%;
+  margin: auto;
+  height: 600px;
+}
+form {
+  padding: 10px;
+}
+#name {
+  width: 100%;
+  height: 100px;
+}
+.name {
+  margin-left: 25px;
+  margin-top: 30px;
+  width: 125px;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+}
+.firstname {
+  position: relative;
+  left: 180px;
+  top: -30px;
+  line-height: 45px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+}
+.lastname {
+  position: relative;
+  left: 180px;
+  top: -30px;
+  line-height: 46px;
+  border-radius: 8px;
+  padding: 0 22px;
+  font-size: 22px;
+  color: #555;
+}
+.firstlabel {
+  position: relative;
+  color: #ce1662;
+  text-transform: capitalize;
+  font-size: 20px;
+  left: -38px;
+  top: 10px;
+}
+.lastlabel {
+  position: relative;
+  color: #df195b;
+  text-transform: capitalize;
+  font-size: 20px;
+  left: -110px;
+  top: 6px;
+}
+.gender {
+  position: relative;
+  left: 200px;
+  top: -37px;
+  line-height: 40px;
+  width: 532px;
+  border-radius: 10px;
+  padding: 0 22px;
+  font-size: 20px;
+  color: rgb(178, 187, 207);
+}
+.radio {
+  position: relative;
+  left: 200px;
+  top: -37px;
+  line-height: 40px;
+  width: 532px;
+  /* height: 40px; */
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 20px;
+  color: rgb(178, 187, 207);
+  outline: none;
+  overflow: hidden;
+}
+.na {
+  position: relative;
+  left: 200px;
+  top: 25px;
+  line-height: 40px;
+  width: 280px;
+  border-radius: 10px;
+  padding: 0 22px;
+  font-size: 20px;
+  color: rgb(178, 187, 207);
+}
+.code {
+  position: relative;
+  left: 200px;
+  top: -37px;
+  line-height: 40px;
+  width: 300px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color: rgb(238, 221, 176);
+}
+.number {
+  position: relative;
+  left: 170px;
+  top: -37px;
+  line-height: 40px;
+  width: 300px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color: rgb(219, 183, 183);
+}
+.area-code {
+  position: relative;
+  color: #d0e2f3;
+  text-transform: capitalize;
+  font-size: 16px;
+  left: -100px;
+  top: -5px;
+}
+.phone-number {
+  position: relative;
+  color: #cdd8cc;
+  text-transform: capitalize;
+  font-size: 16px;
+  left: -130px;
+  top: -5px;
+}
+.option {
+  position: relative;
+  left: 200px;
+  top: 40px;
+  line-height: 40px;
+  width: 532px;
+  height: 40px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 20px;
+  color: rgb(178, 187, 207);
+  outline: none;
+  overflow: hidden;
+}
+.option option {
+  font-size: 20px;
+}
